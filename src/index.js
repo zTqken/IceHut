@@ -12,17 +12,6 @@ const client = new Client({
     IntentsBitField.Flags.MessageContent,
   ],
 });
-
-
-
-
-client.on('ready', () => {
-  client.user.setPresence({
-      activity: { name: 'Fishing for Crappie!', type: 'PLAYING' },
-      status: 'online',
-  });
-});
-
 (async () => { 
   try {
     mongoose.set('strictQuery', false);
