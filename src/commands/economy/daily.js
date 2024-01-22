@@ -53,7 +53,7 @@ module.exports = {
       await user.save();
 
       interaction.editReply(
-        `Your Daily Reward was ***${dailyAmount}*** dabloons! You now have ***${user.balance}*** dabloons!`
+        `**Your Daily Reward was ${dailyAmount} dabloons! You now have ${user.balance} dabloons!**`
       );
     } catch (error) {
       console.log(`Error with /daily: ${error}`);
