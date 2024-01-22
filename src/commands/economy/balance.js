@@ -29,7 +29,7 @@ module.exports = {
 
     interaction.editReply(
       targetUserId === interaction.member.id
-        ? `**Your balance is **8${user.balance}*** :coin: dabloons!**`
+        ? `**Your balance is ***${user.balance}*** :coin: dabloons!**`
         : `**<@${targetUserId}>'s balance is ***${user.balance}*** dabloons!**`
     );
   },
