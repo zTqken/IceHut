@@ -13,7 +13,7 @@ module.exports = {
     const serverInfoEmbed = {
       title: 'Server Information',
       description: 'Here is some information about the server.',
-      color: 0x00FF00, //green
+      color: 0xFFFF00, // Yellow color
       thumbnail: {
         url: guild.iconURL({ dynamic: true }),
       },
